@@ -1,0 +1,2 @@
+.brand img{position:static;width:105px;height:55px;object-fit:contain;filter:none}.footer-brand img{height:105px;width:125px;object-fit:contain;object-position:center;filter:none;margin:0}
+@media(max-width:700px){.nav .brand img{width:85px;height:55px}}
