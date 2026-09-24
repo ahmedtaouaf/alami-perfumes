@@ -1,3 +1,4 @@
+const WHATSAPP_NUMBER="212624221246";
 // Collez ici l'URL du déploiement Google Apps Script après la configuration (voir SETUP-GOOGLE-SHEETS.md).
 const ORDER_API_URL="https://script.google.com/macros/s/AKfycbwymlzcjdzcjy2zutSqXsW1XuV_GHwlUZN3ApGgudpIegHLJfr8O1n9HP3onQ6WRg/exec";
 // Ajoutez ici vos 200+ parfums : [nom, genre, famille]. La recherche s'adapte automatiquement.
