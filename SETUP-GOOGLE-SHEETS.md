@@ -10,3 +10,5 @@
 8. Publiez le dossier du site mis à jour et testez une commande. Ouvrir l'URL `/exec` dans un navigateur doit afficher `{"ok":true,"service":"Alami orders receiver"}`. Si vous obtenez une erreur 401, ouvrez **Deploy → Manage deployments → Edit**, vérifiez l'accès **Anyone**, puis créez une nouvelle version et déployez-la.
 
 Chaque commande crée une ligne dans l'onglet **Commandes** et envoie un e-mail automatiquement. Ne mettez jamais de mot de passe dans le site.
+
+Après toute modification du script (notamment le modèle d'e-mail), ouvrez **Deploy → Manage deployments → Edit**, sélectionnez **New version**, puis **Deploy** afin d'appliquer la nouvelle version.

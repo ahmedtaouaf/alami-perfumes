@@ -1,6 +1,6 @@
 const WHATSAPP_NUMBER="212624221246";
 // Collez ici l'URL du déploiement Google Apps Script après la configuration (voir SETUP-GOOGLE-SHEETS.md).
-const ORDER_API_URL="https://script.google.com/macros/s/AKfycbwymlzcjdzcjy2zutSqXsW1XuV_GHwlUZN3ApGgudpIegHLJfr8O1n9HP3onQ6WRg/exec";
+const ORDER_API_URL="https://script.google.com/macros/s/AKfycbxKzkcfBDIBeB5i_k3kiFdCHnKScTIGPMi-7WbM-H6S96LebFP44-r04LYyU8-WBQ/exec";
 // Ajoutez ici vos 200+ parfums : [nom, genre, famille]. La recherche s'adapte automatiquement.
 const PERFUMES=[["Ambre Solaire","Femme","Ambré"],["Musc Blanc","Mixte","Musqué"],["Oud Royal","Homme","Boisé"],["Fleur de Jasmin","Femme","Floral"],["Vanille Dorée","Femme","Gourmand"],["Rose d'Orient","Femme","Floral"],["Bois de Santal","Homme","Boisé"],["Neroli Intense","Mixte","Hespéridé"],["Santal Élixir","Homme","Boisé"],["Velours Noir","Mixte","Oriental"],["Iris Précieux","Femme","Poudré"],["Cuir de Minuit","Homme","Cuiré"],["Figue Blanche","Mixte","Fruité"],["Oud Safran","Homme","Épicé"],["Pivoine d'Or","Femme","Floral"],["Musc Cashmere","Mixte","Musqué"],["Cèdre Absolu","Homme","Boisé"],["Fleur de Coton","Femme","Poudré"],["Éclat d'Agrumes","Mixte","Hespéridé"],["Prune Ambrée","Femme","Gourmand"]].map(([name,gender,family])=>({name,gender,family}));
 let selectedOffer={},chosen=[null,null,null,null],activeSlot=0,filter='Tous';const modal=document.querySelector('#order-modal'),box=document.querySelector('#perfume-options'),count=document.querySelector('#selection-count');
